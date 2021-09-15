@@ -1,0 +1,286 @@
+/* Google Fonts Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    box-sizing: border-box;    
+}
+body{
+    font-family: Poppins, sans-serif;
+}
+section{
+    padding: 20px 0px;
+}
+
+/* 
+Header Section Css Started 
+-----------------------------
+*/
+/* header top css started */
+
+.header-top {
+    background: #F5F6F8;
+}
+
+.container {
+    width: 1170px;
+    margin: auto;
+    padding: 15px 0px;
+}
+.header-top-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-part {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.left-part {
+    width: 40%;
+    line-height: 27px;
+}
+
+.s-usd>a {
+    text-decoration: none;
+    color: #444;
+    font-size: 12px;
+}
+
+.s-usd>i {
+    font-size: 13px;
+    margin-left: 4px;
+}
+.single-usd {
+    display: flex;
+    flex-direction: column;
+    background: #f3f3f3;
+    width: 45px;
+    padding: 10px 10px;
+    margin-top: 0;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: 0px 0px 1px 2px #f5eeee;
+    position: absolute;
+    display: none;
+}
+
+.single-usd>a {
+    text-decoration: none;
+    font-size: 13px;
+    color: #444;
+    line-height: 18px;
+}
+.s-usd {
+    margin-right: 14px;
+    position: relative;
+}
+
+.s-lan>a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #444;
+}
+
+.s-lan {
+    margin-right: 14px;
+}
+
+.s-lan>i{
+    font-size: 13px;
+    margin-left: 4px;
+}
+
+.right-part>ul>li {display: inline-block;font-size: 12px;padding-left: 14px;}
+
+.right-part>ul {
+    list-style: none;
+}
+/* hover */
+.s-usd:hover .single-usd {
+    margin-top: 10px;
+    display: flex;
+    transition: 2s !important;
+}
+span.left-border {
+    width: 1px;
+    height: 1.2rem;
+    margin-right: 12px;
+    background: #ccc;
+}
+
+.sign-in-register>p>span>a {
+    display: inline;
+    font-size: 12px;
+    color: #494444;
+}
+
+.sign-in-register>p>span>a>i {
+    font-size: 13px;
+    margin-right: 2px;
+}
+
+.sign-in-register {
+    margin-left: 14px;
+}
+
+.left-part>p {
+    font-size: 12px;
+    font-weight: inherit;
+    letter-spacing: -0.022em;
+}
+
+.s-lan:hover .single-usd {
+    margin-top: 10px;
+    display: flex;
+    transition: 2s !important;
+}
+
+.logoMenu_wrapper {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+}
+
+.rightMenuDetail {
+    display: flex;
+    width: 31%;
+    justify-content: space-between;
+    position: relative;
+}
+
+.logoMenuList_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_menu ul li {
+    display: inline-block;
+    padding-left: 28px;
+    line-height: 50px;
+}
+
+.single.logo img {
+    width: 145px;
+    margin-top: 12px;
+}
+
+.single.logo {
+    width: 20%;
+}
+
+.main_menu {
+    width: 75%;
+}
+
+ul.main_ul li a {
+    display: block;
+    text-decoration: none;
+}
+
+ul.main_ul {
+    line-height: 72px;
+    height: 100%;
+}
+
+.callDetails {
+    display: flex;
+    align-items: center;
+}
+
+.callIcon i {
+    font-size: 28px;
+    margin-right: 10px;
+}
+
+.call-detail p, a {
+    text-decoration: none;
+    color: #0e0d0d;
+}
+div#card-compare-wishlist-wrapper {
+    display: flex;
+    align-items: center;
+}
+.single-card {
+    text-align: center;
+    padding: 0px 10px 0px 10px;
+}
+
+.call-detail {
+    width: 125px;
+}
+
+.single-card span {
+    font-size: 13px;
+}
+
+.single-card i {
+    font-size: 24px;
+}
+span.border-rg:before {
+    content: "";
+    width: 1px;
+    background: #e4dddd;
+    position: absolute;
+    height: 46px;
+    top: 14px;
+}
+span.border-rg {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.sign-in-register p span {
+    color: #706a6a;
+    font-size: 12px;
+}
+
+.sign-in-register p {
+    display: inline;
+}
+.sign-in-register p>span>a:hover{
+    color:#00baa3;
+    transition: .3s;
+}
+.home-active{
+    color:#00BAA3 !important;
+}
+.main_ul li a{
+    color:rgb(3, 1, 1);
+}
+.main_ul li a:hover{
+    color:#00BAA3;
+    transition: .3s;
+}
+.right-part ul li:hover{
+    color:#00BAA3;
+    transition: .3s;
+    cursor: pointer;
+}
+.call-detail p a{
+    color: #333;
+}
+.call-detail>p>a:hover{
+    color: #00BAA3 !important;
+    transition: .3s;
+}
+.callDetails:hover .callIcon>i{
+    color: #00BAA3;
+    transition: .3s;
+}
+.callDetails:hover .call-detail>span>a{
+    color: #00BAA3;
+    transition: .3s;
+}
+.single-card:hover i{
+    color: #00BAA3;
+    transition: .3s;
+}
+
+.single-card:hover span{
+    color: #00BAA3;
+    transition: .3s;
+}

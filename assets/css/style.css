@@ -185,6 +185,7 @@ ul.main_ul li a {
 ul.main_ul {
     line-height: 72px;
     height: 100%;
+    font-weight: 500;
 }
 
 .callDetails {
@@ -216,6 +217,7 @@ div#card-compare-wishlist-wrapper {
 
 .single-card span {
     font-size: 13px;
+    color: black;
 }
 
 .single-card i {
@@ -282,5 +284,176 @@ span.border-rg {
 
 .single-card:hover span{
     color: #00BAA3;
+    transition: .3s;
+}
+.single.logo:hover {
+    cursor: pointer;
+}
+/* middle-header-main Css Started */
+.sectionWrapper {
+    display: flex;
+}
+
+.middle-area {
+    display: flex;
+}
+
+.end-area {
+    display: flex;
+}
+
+.sectionWrapper {
+    display: flex;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    align-items: center;
+    height: 100%;
+    overflow: hidden;
+}
+
+.middle-area {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 600px;
+    overflow: hidden;
+}
+
+.end-area {
+    display: flex;
+    align-items: center;
+    width: 335px;
+    justify-content: space-evenly;
+    margin-left: 20px;
+}
+
+
+
+.left_area {
+    background: #00BAA3;
+    width: 275px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding: 22px;
+}
+
+.left_area>a>i,span {
+    color: white;
+}
+
+.left_area span i {
+    color: white;
+}
+
+.left_area>span>a>i {
+    margin-left: 42px;
+    font-size: 15px;
+}
+
+.left_area a i {
+    margin-right: 4px;
+}
+
+section#middle-header-main {
+    background: black;
+    height: 66px;
+    position: relative;
+}
+
+.right-content {
+    width: 70%;
+    position: relative;
+}
+
+.right-content>input {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 16px 44px;
+}
+
+.right-content i {
+    position: absolute;
+    bottom: 17px;
+    color: #979797;
+    right: 18px;
+}
+
+.left-content>select {
+    padding: 16px 16px;
+    outline: none;
+    bottom: -25px;
+    width: 100%;
+    border: none;
+    position: absolute;
+    z-index: 1;
+    border-radius: 5px;
+    right: -18px;
+}
+
+.left-content {
+    width: 27%;
+    position: relative;
+}
+
+.left-content:before {
+    content: "";
+    width: 2px;
+    height: 40px;
+    background: #d7c8c8;
+    position: absolute;
+    left: 191px;
+    bottom: -20px;
+    z-index: 99;
+}
+.single-location i {
+    font-size: 17px;
+}
+
+.single-location span {
+    font-weight: 600;
+    color: white;
+}
+
+.single-deal i {
+    font-size: 17px;
+}
+
+.single-deal span {
+    font-weight: 600;
+    color: white;
+}
+
+.single-location:hover span{
+    cursor: pointer;
+    color: #00BAA3;
+    transition: .3s;
+}
+
+.single-deal:hover span {
+    color: #00BAA3;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.single-location:hover i{
+    cursor: pointer;
+    color: #00BAA3;
+    transition: .3s;
+}
+
+.single-deal:hover i {
+    color: #00BAA3;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.right-content:hover i{
+    color: #00BAA3;
+    cursor: pointer;
     transition: .3s;
 }

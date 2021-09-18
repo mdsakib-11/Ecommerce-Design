@@ -209,6 +209,7 @@ div#card-compare-wishlist-wrapper {
 .single-card {
     text-align: center;
     padding: 0px 10px 0px 10px;
+    cursor: pointer;
 }
 
 .call-detail {
